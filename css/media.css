@@ -1,0 +1,393 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    ul.navbar-nav.ml-auto.px-5 {
+        text-align: center;
+    }   
+
+.banner_content {
+    text-align: center;
+    padding: 70px 0 40px 0;
+}
+.banner_content h1 {
+    font-size: 29px;
+}
+.banner_content p {
+    font-size: 13px
+}
+.banner_img {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-left: 0px;
+}
+.veterinarian_content h1 {
+    font-size: 26px;
+}
+.veterinarian_content p {
+    font-size: 14px;
+}
+.veterinarian_content {
+    text-align: center;
+    margin: 20px 0;
+}
+.veterinarian-img {
+    padding: 28px 0;
+}
+.shape-2 {
+    right: 0px;
+}
+.card_content h1 {
+    text-align: center;
+    font-size: 40px;
+}
+.card_content p {
+    text-align: center;
+    font-size: 13px;
+}
+.bye-content h1 {
+    font-size: 40px;
+    text-align: center;
+}
+.bye-content p {
+    font-size: 13px;
+}
+.price {
+    font-size: 25px;
+}
+.team_content h1 {
+    font-size: 32px;
+    text-align: center;
+}
+.team_content p {
+    font-size: 13px;
+    text-align: center;
+}
+.container.text-center.text-light {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.clints-content{
+    margin: 15px 0;
+}
+.post-content h1 {
+    font-size: 40px;
+    text-align: center;
+}
+.post-content p {
+    font-size: 13px;
+    text-align: center;
+}
+.post-body {
+    text-align: center;
+}
+.footer_content {
+    text-align: center;
+}
+.last {
+    text-align: center;
+}
+.last2 {
+    text-align: center;
+    font-size: 15px;
+}
+.footer-icon.ml-auto.px-3.mt-2 {
+    margin: auto;
+}
+.pr-5, .px-5 {
+    padding-right: 1rem!important;
+}
+.pl-5, .px-5 {
+    padding-left: 1rem!important;
+}
+.footer-btn {
+    margin-top: -37px;
+}
+input.form-control.mr-sm-2.footer-input.bg-warning {
+    width: 100%;
+}
+.last2 {
+    text-align: center;
+    font-size: 14px;
+}
+
+
+}
+
+
+
+/* Small devices (landscape phones, less than 768px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    ul.navbar-nav.ml-auto.px-5 {
+        text-align: center;
+    }
+    .form-inline .form-control {
+        width: 100%;
+    }   
+ 
+.banner_content {
+    padding: 70px 0 50px 0;
+    text-align: center;
+}   
+.banner_content h1 {
+    font-size: 50px;
+}
+    
+.banner_content p {
+    font-size:20px;
+    margin-top: 20px;
+}
+.banner_img {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-left: 50px;
+}
+    
+.veterinarian_content h1 {
+    font-size: 40px;
+}
+
+.veterinarian_content p {
+    font-size: 20px;
+}
+.veterinarian_content {
+    text-align: center;
+    margin: 20px 0;
+}
+.veterinarian-img {
+    padding: 28px 0;
+}
+.shape-2 {
+    right: 0px;
+}
+.card_content h1 {
+    text-align: center;
+    font-size: 40px;
+}
+.card_content p {
+    text-align: center;
+    font-size: 20px;
+}
+.title-card {
+    font-size: 40px;
+}
+.more-p{
+    font-size: 18px;
+}
+.bye-content h1 {
+    font-size: 40px;
+    text-align: center;
+}
+.bye-content p {
+    font-size: 18px;
+}
+.price {
+    font-size: 30px;
+}
+.team_content h1 {
+    font-size: 40px;
+    text-align: center;
+}
+.team_content p {
+    font-size: 18px;
+    text-align: center;
+}
+.container.text-center.text-light {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.clints-content{
+    margin: 15px 0;
+}
+.post-content h1 {
+    font-size: 40px;
+    text-align: center;
+}
+.post-content p {
+    font-size: 20px;
+    text-align: center;
+}
+.post-body {
+    text-align: center;
+}
+p.card-text.mt-2 {
+    font-size: 20px;
+}
+.footer_content {
+    text-align: center;
+}
+.last {
+    text-align: center;
+}
+.last2 {
+    text-align: center;
+    font-size: 15px;
+}
+.footer-icon.ml-auto.px-3.mt-2 {
+    margin: auto;
+}
+.footer-btn {
+    margin-right: 16px;
+    margin-top: -38px;
+    float: right;
+}
+input.form-control.mr-sm-2.footer-input.bg-warning {
+    width: 72%;
+    float: left;
+}
+
+
+}
+
+
+
+
+/* Medium devices  */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    ul.navbar-nav.ml-auto.px-5 {
+        text-align: center;
+    }
+    .form-inline .form-control {
+        width: 100%;
+    }
+    button.navbar-toggler.nav-icon {
+        border: 2px solid white;
+    }
+    .banner_content {
+        padding: 100px 0 100px 0;
+    }   
+    .banner_content h1 {
+        font-size: 45px;
+    }
+        
+    .banner_content p {
+        font-size:20px;
+        margin-top: 20px;
+    }
+    
+       
+.veterinarian_content h1 {
+    font-size: 29px;
+}
+
+.veterinarian_content p {
+    font-size: 17px;
+}
+.veterinarian_content {
+    margin: 90px 0px;
+}
+.veterinarian-img {
+    padding: 28px 0;
+}
+.shape {
+    bottom: 30px;
+    left: 165px;
+}
+
+
+.card_content h1 {
+    font-size: 50px;
+}
+.card_content p {
+    font-size: 22px;
+}
+.title-card {
+    font-size: 22px;
+    font-weight: 400;
+}
+.more-p{
+    font-size: 14px;
+}
+.veterinarian-img {
+    padding: 50px 0;
+}
+.shape-2 {
+    bottom: 30px;
+    right: -6px;
+}
+
+.bye-content h1 {
+    font-size: 45px;
+    text-align: center;
+}
+.bye-content p {
+    font-size: 20px;
+}
+.price {
+    font-size: 28px;
+}
+
+
+.team_content h1 {
+    font-size: 50px;
+    text-align: center;
+}
+.team_content p {
+    font-size: 20px;
+    text-align: center;
+}
+.team-icon .fa {
+    margin: 15px 5px;
+}
+
+.clints-content{
+    margin: 80px 0;
+}
+
+
+.post-content h1 {
+    font-size: 50px;
+    text-align: center;
+}
+.post-content p {
+    font-size: 20px;
+    text-align: center;
+}
+.post-title {
+    font-size: 17px;
+    font-weight: 400;
+}
+p.card-text.mt-2 {
+    font-size: 14px;
+}
+section#footer_section {
+    padding: 20px;
+}
+
+.footer-btn {
+    float: right;
+}
+input.form-control.mr-sm-2.footer-input.bg-warning {
+    width: 75%;
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

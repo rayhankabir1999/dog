@@ -1,0 +1,498 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(253, 243, 243);
+}
+
+/* ====== NAVBER CSS START ======  */
+nav{
+    background-color: #daac00;
+    /* height: 80px; */
+}
+
+.nav-brand img{
+    width: 160px;
+}
+
+.nav-item .nav-link{
+    font-weight: 500;
+    font-size: 18px;
+    background-color: rgb(255, 145, 0);
+    margin: 0 5px 0 5px;
+    padding: 2px 2px;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+    border-radius: 8px;
+    transition: all 0.2s;
+}
+
+.nav-item .nav-link:hover{
+    background-color: brown;
+    transform: scale(1.1);
+}
+
+.nav-input{
+    background-color: #fcc302;
+    border: none;
+    box-shadow: 2px 2px 5px grey;
+}
+
+.nav-btn{
+    background-color: #fcc302;
+    box-shadow: 2px 2px 5px grey;
+}
+
+.nav-btn:hover{
+    background-color: #05effc;
+    box-shadow: 1px 1px 5px 1px white;
+    color: brown;
+}
+
+.form-inline {
+    flex-flow: inherit;
+}
+/* ====== NAVBER CSS END ======  */
+
+
+
+/* ====== BANNER CSS START ======  */
+#banner_section{
+    background-color: #fcc302;
+}
+
+.banner_content{
+    padding: 120px 0;
+}
+
+.banner_content h1{
+    font-weight: bold;
+    font-size: 60px;
+    text-shadow: 3px 3px 3px rgb(252, 94, 2);
+}
+
+.banner_content p{
+    font-size: 25px;
+}
+
+.banner-btn{
+    transition: all 0.2s;
+    font-weight: 500;
+}
+
+.banner-btn:hover{
+    background-color: #05effc;
+    color: rgb(146, 4, 248);
+    box-shadow: 1px 1px 5px 1px white;
+}
+
+.banner_img{
+    padding-top: 60px;
+    padding-bottom: 30px;
+    overflow: hidden;
+    margin-left: -30px;
+}
+/* ====== BANNER CSS END ======  */
+
+
+
+/* ====== VAETERINARIAN CSS START ======  */
+.veterinarian_content{
+    border-radius: 10px;
+    margin: 120px 0;
+    padding: 8px 12px;
+    transition: all 0.3s;
+}
+
+.veterinarian_content:hover{
+    background-color: #daac00;
+}
+
+.veterinarian_content h1{
+    font-size: 42px;
+}
+
+.veterinarian_content p{
+    font-size: 22px;
+}
+
+.service-btn{
+    background-color:rgb(252, 94, 2);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    transition: all 0.2s;
+}
+.service-btn:hover{
+    box-shadow: 1px 1px 5px 1px white;
+    background-color: #05effc;
+    color: rgb(146, 4, 248);
+}
+
+.veterinarian-img{
+    padding: 40px 0;
+}
+
+.veterinarian-img img{
+    position: relative;
+    z-index: 99;
+}
+
+.shape{
+    height: 200px;
+    width: 200px;
+    background-color: #daac00;
+    position: absolute;
+    bottom: 15px;
+    left: -10px;
+}
+
+.shape-2{
+    height: 200px;
+    width: 200px;
+    background-color: #daac00;
+    position: absolute;
+    bottom: 15px;
+    right: -10px;
+}
+/* ====== VAETERINARIAN CSS END ======  */
+
+
+
+/* ====== CARD CSS START ======  */
+.card_content h1{
+    font-weight: bold;
+    font-size: 55px;
+}
+
+.card_content p{
+    font-size: 25px;
+}
+
+.card_img{
+    overflow: hidden;
+    transition: all 0.3s;
+}
+
+.card_img img{
+    transition: all 0.3s;
+}
+
+.card_img img:hover{
+    transform: scale(1.3);
+}
+
+.title-card{
+    font-weight: bold;
+}
+
+.card-body{
+    background-color: #fcc302;
+    transition: all 0.3s;
+}
+
+.card-body:hover{
+    background-color: rgb(252, 94, 2);
+}
+/* ====== CARD CSS END ======  */
+
+
+
+/* ====== BYE CSS START ======  */
+.bye-content h1{
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.bye-content p{
+    font-size: 25px;
+}
+
+.bye-img-1{
+    overflow: hidden;
+}
+
+.bye-img-1 img{
+    transition: all 0.3s;
+}
+
+.bye-img-1 img:hover{
+    transform: scale(1.4);
+}
+
+.price{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.bye-btn{
+    border-radius: 20px;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.bye-btn:hover{
+    box-shadow: 1px 1px 5px 1px white;
+    background-color: #05effc;
+    color: rgb(146, 4, 248);
+}
+/* ====== BYE CSS END ======  */
+
+
+
+/* ====== TEAM CSS START ======  */
+.team_content h1{
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.team_content p{
+    font-size: 25px;
+}
+
+.team-icon{
+    background-color: rgb(212, 190, 190);
+}
+
+.team-icon .fa{
+    margin: 8px;
+    font-size: 20px;
+    background-color: #fcc302;
+    color: white;
+    padding: 5px 8px;
+    border-radius: 50%;
+    border: 1px solid black;
+    transition: all 0.2s;
+}
+
+.team-icon{
+    transition: all 0.3s;
+}
+
+.team-icon:hover{
+    background-color: black;
+}
+
+.team-icon .fa:hover{
+    color: red;
+    background-color: white;
+    transform: scale(1.1);
+    box-shadow: 1px 1px 5px 1px gray;
+    border: none;
+}
+/* ====== TEAM CSS END ======  */
+
+
+
+/* ====== CLINTS CSS START ======  */
+#clints_section{
+    background-image: url('../images/22222.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.clints-content{
+    margin: 120px 0;
+    box-shadow: 1px 1px 5px 1px white;
+    padding: 15px 10px;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.clints-content:hover{
+    background-color: rgb(252, 94, 2);
+    box-shadow: 2px 2px 10px 2px white;
+}
+/* ====== CLINTS CSS END ======  */
+
+
+
+/* ====== RECENT POST CSS START ======  */
+.post-content h1{
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.post-content p{
+    font-size: 25px;
+}
+
+.post-title{
+    font-weight: bold;
+}
+
+.date{
+    color: #05effc;
+    font-weight: bold;
+}
+
+.read-more-btn{
+    font-weight: bold;
+    color: #05effc;
+}
+
+.read-more-btn:hover{
+    font-size: 18px;
+    color: rgb(146, 4, 248);
+}
+
+.post-body{
+    background-color: #a8c3c5;
+    transition: all 0.3s;
+}
+
+.post-body:hover{
+    background-color: #9aa6a7;
+}
+/* ====== RECENT POST CSS END ======  */
+
+
+
+/* ===== FOOTER POST CSS START ====== */
+.footer_content{
+    padding: 10px 15px;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+
+.footer_content:hover{
+    background-color: rgb(40, 37, 37);
+}
+
+.footer_content h4{
+    color: white;
+}
+
+.footer_content a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer_content a:hover{
+    color: rgb(252, 7, 7);
+}
+
+.last{
+    text-align: right;
+}
+
+.last2{
+    text-align: right;
+}
+
+.footer-input{
+    float: right;
+}
+
+.footer-btn{
+    float: right;
+    background-color: #05effc;
+    color: white;
+    transition: all 0.3s;
+}
+
+.footer-btn:hover{
+    box-shadow: 1px 1px 10px 1px white;
+    color: rgb(146, 4, 248);
+}
+
+.footer_last_div{
+    padding: 10px 15px;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+
+.footer_last_div:hover{
+    background-color: rgb(40, 37, 37);
+}
+
+.footer-icon .fa{
+    background-color: white;
+    color: black;
+    padding: 5px 8px;
+    margin: 5px;
+    border-radius: 50%;
+}
+
+.footer-icon .fa:hover{
+    color: red;
+    transform: scale(1.2);
+}
+/* ===== FOOTER POST CSS END ====== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.card_img{
+    overflow: hidden;
+}
+
+
+.card_img img:hover{
+    transform: scale(1.5);
+    transition: 0.5s;
+}
+
+.card-body{
+    transition: 0.5s;
+}
+
+.card-body:hover{
+    color: white;
+    background-color: indigo;
+}
+
+.card-btn{
+    color: rgb(251, 3, 3);
+}
+
+.card-btn:hover{
+    transform: scale(1.2);
+    transition: 0.3s;
+} */
